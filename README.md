@@ -103,7 +103,7 @@ Two screenshots are showed bellow:
 
 ![demo screenshot1](<assets/jetson orin-universe2.png>)
 
-A demo video can be found on Bilibili website:
+A video demo can be found on Bilibili website:
 https://www.bilibili.com/video/BV1naa7eoESm/?share_source=copy_web&vd_source=81fc800c9cfa4893666931076308fa4b
 
 ### More Options
