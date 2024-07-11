@@ -57,7 +57,7 @@ $ sudo rocker --nvidia --x11 --user --network host   -- 1429053840/autoware.univ
 when it shows error, you need to change the --gpus all to --runtime=nvidia, as this is not supported on ARM platform.
 A similar one is like bellow, yours will be different.
 ```
-$ docker run --rm -it --network host   --runtime=nvidia  -v /home/lz/Documents:/home/lz/Documents  -e DISPLAY -e TERM   -e QT_X11_NO_MITSHM=1   -e XAUTHORITY=/tmp/.dockero6k0y78q.xauth -v /tmp/.dockero6k0y78q.xauth:/tmp/.dockero6k0y78q.xauth   -v /tmp/.X11-unix:/tmp/.X11-unix   -v /etc/localtime:/etc/localtime:ro  99c3b767c2c1
+$ docker run --rm -it --network host   --runtime=nvidia  -e DISPLAY -e TERM   -e QT_X11_NO_MITSHM=1   -e XAUTHORITY=/tmp/.dockero6k0y78q.xauth -v /tmp/.dockero6k0y78q.xauth:/tmp/.dockero6k0y78q.xauth   -v /tmp/.X11-unix:/tmp/.X11-unix   -v /etc/localtime:/etc/localtime:ro  99c3b767c2c1
 ```
 
 
